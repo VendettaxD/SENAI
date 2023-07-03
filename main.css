@@ -335,13 +335,13 @@
     }
 
     .cursos {
-        padding-left: 450px;
+        padding-left: 350px;
     }
 
     .cursos h2 {
         font-size: 35px;
         color: #fff;
-        margin-left: 100px;
+        margin-left: 140px;
         border-top: white 1.5px solid;
         padding-top: 15px;
     }
@@ -349,7 +349,7 @@
     button {
         z-index: 4;
         cursor: pointer;
-        margin-left: 50px;
+        margin-left: 65px;
         margin-top: 120px;
         font-weight: 700;
         font-family: Helvetica,"sans-serif";
@@ -382,68 +382,77 @@
       }
       
     #pos-text {
+        backdrop-filter: blur(0px);
         position: absolute;
         color: white;
         font-size:  25px;
-        margin-left: 30px;
+        margin-left: 45px;
         margin-top: 38px; 
     }
 
     #pos-img {
+        backdrop-filter: blur(0px);
         padding-left: 9px;
         padding-top: 20px;
         border-radius: 20px;
-        width: 241px;
+        width: 271px;
         height: 156px;
     }
 
     #tec-img:hover {
-        width: 251px;
+        backdrop-filter: blur(0px);
+        width: 281px;
         height: 160px;
-        margin-left: -3px;
+        margin-left: -4.2px;
     }
 
     #pos-img:hover {
-        width: 251px;
+        backdrop-filter: blur(0px);
+        width: 281px;
         height: 160px;
         margin-left: -4px;
     }
 
     #tec-text {
+        backdrop-filter: blur(0px);
         position: absolute;
         color: white;
         font-size:  25px;
-        margin-left: 75px;
+        margin-left: 95px;
         margin-top: 38px; 
     }
 
     #tec-img {
+        backdrop-filter: blur(0px);
         padding-left: 9px;
         padding-top: 20px;
         border-radius: 20px;
-        width: 241px;
+        width: 272px;
         height: 156px;
     }
 
     #gra-text {
+        backdrop-filter: blur(0px);
         position: absolute;
         color: white;
         font-size:  25px;
-        margin-left: 55px;
+        margin-left: 70px;
         margin-top: 38px;
     }
 
     #gra-img:hover {
-        width: 250px;
+        backdrop-filter: blur(0px);
+        width: 280px;
         height: 160px;
         margin-left: -3px;
     }     
 
     #gra-img {
+        backdrop-filter: blur(0px);
         padding-left: 9px;
         padding-top: 20px;
         border-radius: 20px;
-        width: 241px;
+        width: 271px;
         height: 156px;
     }      
 
@@ -451,26 +460,29 @@
         position: absolute;
         color: white;
         font-size:  25px;
-        margin-left: 25px;
-        margin-top: 40px;
+        margin-left: 45px;
+        margin-top: 25px;
     }
 
     .estencao {
+        backdrop-filter: blur(0px);
         padding-left: 5px;
-        padding-top: 20px;
+        padding-top: 10px;
         border-radius: 20px;
+        width: 271px;
     }
 
     .estencao:hover {
+        backdrop-filter: blur(0px);
         zoom: 1.03;
         margin-left: -2px;
     }
 
     .card {
-        width: 250px;
+        width: 280px;
         float: left;
         margin: 0px 30px;
-        height: 354px;
+        height: 384px;
         margin-top: 90px;
         transition: all 0.2s;
         position: relative;
@@ -510,6 +522,12 @@
         bottom: -25px;
         right: -35px;
         animation-name: move-down1;
+      }
+
+      .inpur iframe {
+        margin-left: -82%;
+        margin-top: 25%;
+        position: absolute;
       }
       
       @keyframes move-up6 {
@@ -648,4 +666,53 @@
             background-image: url('/images/790x767.jpg');
             height: 770px;
         }
+
+        .cursos {
+            position: absolute;
+            padding-left: 20px;
+        }
+
+        .cursos h2 {
+            font-size: 28px;
+            margin-left: -5px;
+            width: 100%;
+        }
+
+        .card {
+            width: 280px;
+            float: bottom;
+            margin: 0px 30px;
+            height: 384px;
+            margin-top: 90px;
+            transition: all 0.2s;
+            position: relative;
+            cursor: pointer;
+          }
+
+          .slider-components h2, h4 {
+            font-size: 50px;
+            margin-top: -20px;
+            margin-left: -100px;
+          }
+
+          .slider-components .button {
+            margin-top: -1px;
+            margin-left: -100px;
+          }
+
+          #second {
+            margin-left: 21px;
+            font-size: 20px;
+          }
+
+          .second-component h2, h5 {
+            font-size: 45px;
+            margin-top: -0px;
+            margin-left: 10px;
+          }
+
+          .second-component .button {
+            margin-top: 21px;
+            margin-left: 20px;
+          }
     }
