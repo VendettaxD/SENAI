@@ -17,6 +17,8 @@
         height: 5000px;
     }
 
+    
+
     .nav {
         z-index: 2;
         text-transform: uppercase;
@@ -541,7 +543,7 @@
         height:1085px;
         margin-left: -82%;
         margin-top: 25%;
-        position: absolute;
+        position: relative;
       }
       
       @keyframes move-up6 {
@@ -556,6 +558,95 @@
         }
       }
 
+
+    @media screen and (max-width: 720px) {
+
+        .third-components h2 {
+            font-size: 40px;
+            margin-left: 20px;
+        }
+
+        #third {
+            margin-top: 30px;
+        }
+
+        .third-components .button {
+            margin-top: 70px;
+            margin-left: 20px;
+        }
+
+        .third-components p {
+            font-size: 40px;
+            margin-left: 20px;
+        }
+
+        .four-components .button {
+            margin-left: 20px;
+            margin-top: 70px;
+        }
+
+        .four-components h5 {
+            font-size: 40px;
+            margin-left: 20px;
+        }
+
+        .four-components h2 {
+            font-size: 40px;
+            margin-left: 20px;
+        }
+
+        .slider-components h2, h4 {
+            font-size: 50px;
+            margin-top: -220px;
+            margin-left: -100px;
+          }
+
+          #first {
+            margin-top: -280px;
+            margin-left: -110px;
+          }
+
+          .slider-components .button {
+            margin-top: -270px;
+            margin-left: -110px;
+          }
+
+          #second {
+            margin-left: 21px;
+            font-size: 20px;
+            margin-top: 20px;
+          }
+
+          .second-component h2, h5 {
+            font-size: 45px;
+            margin-top: -20px;
+            margin-left: 10px;
+          }
+
+          .second-component .button {
+            margin-top: 41px;
+            margin-left: 20px;
+          }
+
+        .card {
+            margin-left: 20px;
+        }
+
+        #video-input {
+            position: absolute;
+            width: 690px;
+            top: 45%;
+            left: 610px;
+        }
+
+        .input-text {
+            opacity: 100;
+        }
+
+        .typeWriter {
+            opacity: 100;
+        }
+    }
 
     /* responsive */
     @media screen and (max-width: 1160px) {
@@ -766,14 +857,9 @@
         
         .typeWriter {
             position: absolute;
-            margin-left: -150px;
             opacity: 100;
         }
 
-        .input-text strong {
-            opacity: 100;
-            color: #da6600;
-        }
 
         .input-text {
             position: absolute;
@@ -781,6 +867,7 @@
             font-size: 35px;
             margin-top: 615%;
             padding-left: 0;
+            opacity: 100;
         }
 
         .input iframe  {
