@@ -489,6 +489,18 @@
         cursor: pointer;
       }
       
+      .input-text {
+        position: absolute;
+        top: 270%;
+        width: 60%;
+        margin-left: 8%;
+        opacity: 0;
+      }
+
+      .typeWriter {
+        font-size: 55px;
+      }
+
       .card-inner {
         width: inherit;
         height: inherit;
@@ -524,7 +536,9 @@
         animation-name: move-down1;
       }
 
-      .inpur iframe {
+      .input iframe {
+        width:2050px;
+        height:1085px;
         margin-left: -82%;
         margin-top: 25%;
         position: absolute;
@@ -571,6 +585,79 @@
         .nav .navCloseBtn {
             display: block;
         }
+
+        .embla__slide {
+            width: 120%;
+        }
+
+        .cursos h2 {
+            margin-left: -180px;
+        }
+
+        .typeWriter {
+            width: 80%;
+            position: absolute;
+            margin-left: -100px;
+            font-size: 25px;
+            top: 5350%;
+            display: block;
+        }
+
+        .cursos button {
+            margin-left: 110px;
+            margin-top: 115px;
+        }
+
+       .estencao {
+        width: 370px;
+        height: 190px;
+       }
+
+        #ex-text {
+            margin-left: 100px;
+        }
+
+        #pos-img {
+            width: 370px;
+            height: 190px;
+        }
+
+        #pos-text {
+            margin-left: 100px;
+        }
+
+        #gra-text {
+            margin-left: 120px;
+        }
+
+        #gra-img  {
+            width: 370px;
+            height: 190px;
+        }
+
+        #tec-text {
+            margin-left: 140px;
+        }
+
+        #tec-img {
+            width: 370px;
+            height: 190px;
+        }
+
+        .card {
+            width: 380px;
+            float: left;
+            left: -190px;
+        }
+
+        .input iframe {
+            position: absolute;
+            width: 700px;
+            height: 400px;
+            margin-top: 252%;
+            right: 7%;
+        }
+
 
         .nav {
             padding: 15px 20px;
@@ -663,7 +750,6 @@
     @media screen and (max-width: 390px) {
         .embla__slide img {
             width: 100%;
-            background-image: url('/images/790x767.jpg');
             height: 770px;
         }
 
@@ -677,17 +763,76 @@
             margin-left: -5px;
             width: 100%;
         }
+        
+        .typeWriter {
+            position: absolute;
+            margin-left: -150px;
+            opacity: 100;
+        }
+
+        .input-text strong {
+            opacity: 100;
+            color: #da6600;
+        }
+
+        .input-text {
+            position: absolute;
+            color: #fff;
+            font-size: 35px;
+            margin-top: 615%;
+            padding-left: 0;
+        }
+
+        .input iframe  {
+            position: absolute;
+            width: 380px;
+            height: 320px;
+            margin-top: 530%;
+            margin-left: 1%;
+            z-index: 6;
+        }
 
         .card {
+            width: 290px;
+            margin-left: 200px;
+        }
+
+        
+       .estencao {
+        width: 280px;
+        height: 190px;
+       }
+
+        #ex-text {
+            margin-left: 100px;
+        }
+
+        #pos-img {
             width: 280px;
-            float: bottom;
-            margin: 0px 30px;
-            height: 384px;
-            margin-top: 90px;
-            transition: all 0.2s;
-            position: relative;
-            cursor: pointer;
-          }
+            height: 190px;
+        }
+
+        #pos-text {
+            margin-left: 100px;
+        }
+
+        #gra-text {
+            margin-left: 120px;
+        }
+
+        #gra-img  {
+            width: 280px;
+            height: 190px;
+        }
+
+        #tec-text {
+            margin-left: 140px;
+        }
+
+        #tec-img {
+            width: 280px;
+            height: 190px;
+        }
 
           .slider-components h2, h4 {
             font-size: 50px;
