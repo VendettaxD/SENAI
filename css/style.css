@@ -36,10 +36,10 @@
 
 
     .video-input iframe {
-        width: 370px;
+        width: 180px;
         height: 250px;
         margin-top: 2000px;
-        margin-left: -40px;
+        margin-left: -46px;
     }
 
 }
