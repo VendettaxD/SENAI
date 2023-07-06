@@ -504,9 +504,9 @@
 
     .input-text {
     position: absolute;
-    top: 270%;
+    top: 329%;
     z-index: 2;
-    width: 60%;
+    width: 70%;
     margin-left: 8%;
     opacity: 100;
     }
@@ -642,10 +642,10 @@
     }
 
     .input iframe {
-    width: 2050px;
+    width: 1785px;
     height: 1085px;
-    margin-left: -82%;
-    margin-top: 25%;
+    margin-left: 2%;
+    margin-top: 5%;
     position: relative;
     }
 
