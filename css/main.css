@@ -504,7 +504,7 @@
 
     .input-text {
     position: absolute;
-    top: 329%;
+    top: 289%;
     z-index: 2;
     width: 70%;
     margin-left: 8%;
@@ -586,7 +586,7 @@
         width: 90%;
         height: 500px;
         margin-left: 5%;
-        margin-top: 8%;
+        margin-top: 15%;
         border-radius: 10px 80px 10px 80px;
         background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
     }
