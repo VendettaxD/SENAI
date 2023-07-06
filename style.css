@@ -1,0 +1,389 @@
+
+
+
+@media screen and (max-width: 412px) {
+
+    .cursos h2 {
+        width: 100%;
+        position: relative;
+        white-space: nowrap;
+        font-size: 1px;
+        left: -470px;
+    }
+
+
+    #c1 {
+        
+        float: left;
+        margin-left: -80px;
+    }
+
+    #c2 {
+        
+        float: left;
+        margin-left: -80px;
+    }
+
+    #c3 {
+        
+        float: left;
+        margin-left: -80px;
+    }
+
+    #c4 {
+        
+        float: left;
+        margin-left: -80px;
+    }
+
+
+    .video-input iframe {
+        width: 370px;
+        height: 250px;
+        margin-top: 2000px;
+        margin-left: -40px;
+    }
+
+}
+
+
+@media screen and (max-width: 720px) {
+
+    .third-components h2 {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    #third {
+        margin-top: 30px;
+    }
+
+    .third-components .button {
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+
+    .third-components p {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    .four-components .button {
+        margin-left: 20px;
+        margin-top: 70px;
+    }
+
+    .four-components h5 {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    .four-components h2 {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    .slider-components h2, h4 {
+        font-size: 50px;
+        margin-top: -220px;
+        margin-left: -100px;
+      }
+
+      #first {
+        margin-top: -280px;
+        margin-left: -110px;
+      }
+
+      .slider-components .button {
+        margin-top: -270px;
+        margin-left: -110px;
+      }
+
+      #second {
+        margin-left: 21px;
+        font-size: 20px;
+        margin-top: 20px;
+      }
+
+      .second-component h2, h5 {
+        font-size: 45px;
+        margin-top: -20px;
+        margin-left: 10px;
+      }
+
+      .second-component .button {
+        margin-top: 41px;
+        margin-left: 20px;
+      }
+
+    .card {
+        margin-left: 20px;
+    }
+
+        .video-input {
+            position: absolute;
+            width: 690px;
+            top: 45%;
+            left: 610px;
+        }
+
+    .input-text {
+        opacity: 100;
+    }
+
+    .typeWriter {
+        opacity: 100;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .nav {
+        padding: 15px 50px;
+    }
+
+    .nav .search-box {
+        right: 100px;
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .nav .navOpenBtn,
+    .nav .navCloseBtn {
+        display: block;
+    }
+
+    .embla__slide {
+        width: 120%;
+    }
+
+    .cursos h2 {
+        margin-left: -180px;
+    }
+
+    .typeWriter {
+        width: 80%;
+        position: absolute;
+        margin-left: -100px;
+        font-size: 25px;
+        top: 5350%;
+        display: block;
+    }
+
+    .cursos button {
+        margin-left: 110px;
+        margin-top: 115px;
+    }
+
+   .estencao {
+    width: 370px;
+    height: 190px;
+   }
+
+    #ex-text {
+        margin-left: 100px;
+    }
+
+    #pos-img {
+        width: 370px;
+        height: 190px;
+    }
+
+    #pos-text {
+        margin-left: 100px;
+    }
+
+    #gra-text {
+        margin-left: 120px;
+    }
+
+    #gra-img  {
+        width: 370px;
+        height: 190px;
+    }
+
+    #tec-text {
+        margin-left: 140px;
+    }
+
+    #tec-img {
+        width: 370px;
+        height: 190px;
+    }
+
+    .card {
+        width: 380px;
+        float: left;
+        left: -190px;
+    }
+
+    .input iframe {
+        position: absolute;
+        width: 700px;
+        height: 400px;
+        margin-top: 252%;
+        right: 7%;
+    }
+
+
+    .nav {
+        padding: 15px 20px;
+    }
+
+
+    .nav .nav-links {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100%;
+        max-width: 280px;
+        width: 100%;
+        padding-top: 100px;
+        row-gap: 30px;
+        flex-direction: column;
+        background: rgb(255, 113, 0);
+        background: linear-gradient(180deg, rgba(255, 113, 0, 1) 0%, rgba(244, 148, 62, 1) 55%, rgba(125, 50, 0, 0) 100%);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        transition: all 0.4s ease;
+        z-index: 100;
+    }
+
+    .nav.openNav .nav-links {
+        left: 0;
+    }
+
+    .nav .navOpenBtn {
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .nav .navCloseBtn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .nav .search-box {
+        top: calc(100% + 10px);
+        max-width: calc(100% - 20px);
+        right: 50%;
+        transform: translateX(50%);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .embla__slide img {
+        width: 100%;
+        height: 770px;
+    }
+
+    .cursos {
+        position: absolute;
+        padding-left: 20px;
+    }
+
+    .cursos h2 {
+        font-size: 28px;
+        margin-left: -5px;
+        width: 100%;
+    }
+    
+    .typeWriter {
+        position: absolute;
+        opacity: 100;
+    }
+
+
+    .input-text {
+        position: absolute;
+        color: #fff;
+        font-size: 35px;
+        margin-top: 615%;
+        padding-left: 0;
+        opacity: 100;
+    }
+
+    .input iframe  {
+        position: absolute;
+        width: 380px;
+        height: 320px;
+        margin-top: 530%;
+        margin-left: 1%;
+        z-index: 6;
+    }
+
+    .card {
+        width: 290px;
+        margin-left: 200px;
+    }
+
+    
+   .estencao {
+    width: 280px;
+    height: 190px;
+   }
+
+    #ex-text {
+        margin-left: 100px;
+    }
+
+    #pos-img {
+        width: 280px;
+        height: 190px;
+    }
+
+    #pos-text {
+        margin-left: 100px;
+    }
+
+    #gra-text {
+        margin-left: 120px;
+    }
+
+    #gra-img  {
+        width: 280px;
+        height: 190px;
+    }
+
+    #tec-text {
+        margin-left: 140px;
+    }
+
+    #tec-img {
+        width: 280px;
+        height: 190px;
+    }
+
+      .slider-components h2, h4 {
+        font-size: 50px;
+        margin-top: -20px;
+        margin-left: -100px;
+      }
+
+      .slider-components .button {
+        margin-top: -1px;
+        margin-left: -100px;
+      }
+
+      #second {
+        margin-left: 21px;
+        font-size: 20px;
+      }
+
+      .second-component h2, h5 {
+        font-size: 45px;
+        margin-top: -0px;
+        margin-left: 10px;
+      }
+
+      .second-component .button {
+        margin-top: 21px;
+        margin-left: 20px;
+      }
+}
